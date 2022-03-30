@@ -1,0 +1,731 @@
+/* Settings */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    width: 1440px;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../outdoor/fonts/Roboto-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(../outdoor/fonts/Poppins-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-display: swap;
+}
+/* CONTENT WRAPPER~S */
+.content_wrapper{
+    width: 1168px;
+    height: 100%;
+    margin: 0 auto;
+}
+/* TEXTS */
+.golden__text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.title__text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #575445;
+}
+.common__text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #575445;
+}
+/* ARROW BUTTON */
+.arrow__button{
+    display: flex;
+}
+.arrow__button p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;  
+    color: #575445;
+    margin-right: 4px;
+}
+.arrow__button2{
+    justify-content: center;
+    display: flex;
+}
+.arrow__button2 p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;  
+    color: #575445;
+    margin-right: 4px;
+}
+.arrow__button3{
+    display: flex;
+}
+.arrow__button3 p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;  
+    color: #FFFFFF;
+    margin-right: 4px;
+}
+.arrow__img{
+    color: #FFFFFF;
+}
+/* Header */
+.header{
+    width: 1440px;
+    height: 79px;
+    display: flex;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.header__logo{
+    width: 128px;
+    height: 39px;
+    padding: 10px 0px;
+    margin-left: 16px;
+    margin-right: 238px;
+}
+.header__navigation{
+    width: 1200px;
+    height: 59px;
+    display: flex;
+    padding: 10px 0px;
+}
+    .nav__item{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #444444;
+    margin-right: 28px;
+    padding: 20px 0px 25px 0px;
+    }
+    /* Header__buttons */
+    .header__buttons{
+    width: 288px;
+    height: 44px;
+    display: flex;
+    padding: 8px 0px 7px 0px;
+    margin-left: 12px;
+    }
+    .header__buttons a{
+        background: #575445;
+        border-radius: 6px;
+    }
+    .header__buttons p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+.header__button{
+    display: flex;
+}
+.header__button p{
+    padding: 10px 0px 11px 0px;
+}
+.button__icon1{
+    width: 17px;
+    height: 17px;
+    padding: 10px 8px 11px 18px;
+}
+.button__icon2{
+    width: 20px;
+    height: 18px;
+    padding: 13px 18px 13px 8px;
+}
+.button_text{
+    padding: 11px 18px 10px 18px;
+}
+.first__button{
+    margin-right: 20px;
+}
+/* Main */
+.main{
+    height: 640px;
+    background: url('../outdoor/img/main_bg.png') no-repeat center center / cover;
+}
+.main__container{
+    width: 600px;
+    height: 193px;
+    padding-top: 218.5px;
+    margin: 0px 584px 228.5px 0px;
+}
+.main__container p{
+    margin-bottom: 10px;
+}
+.main__title_text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;   
+}
+.main__common_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #CACCD1;
+}
+/* About */
+.about{
+    height: 776px;
+    background: url('../outdoor/img/about_bg.png') no-repeat center center / cover;
+}
+.about__container{
+    padding-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    width: 1168px;
+    height: 576px;
+}
+.about__container img{
+    margin-right: 104px;
+}
+.texts__container{
+    padding: 174.5px 88px 172.5px 0px;
+    width: 400px;
+    height: 227px;
+}
+.texts__container .common__text{
+    margin-bottom: 20px;
+}
+.texts__container .title__text{
+    margin-bottom: 8px;
+}
+/* Our Promise */
+.promise{
+    height: 872px;
+    background: url('../outdoor/img/promise_bg.png') no-repeat center center /cover;
+}
+.promise__container{
+    width: 1200px;
+    height: 700px;
+    padding-top: 100px;
+}
+.promise__texts{
+    width: 600px;
+    height: 129px;
+    margin: 0px 300px 0px 300px;
+    text-align: center;
+}
+.promise__texts .title__text{
+    margin-bottom: 7px;
+}
+.promise__blocks{
+    width: 1168px;
+    height: 551px;
+}
+.promise__block{
+    width: 1167.97px;
+    height: 275px;
+    display: flex;
+}
+/* blocks */
+.block__item{
+    width: 388.66px;
+    height: 275px;
+}
+.block__item img{
+    padding: 50px 162px 0px 162px;
+}
+.block__item .item__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #575445;
+    margin-bottom: 8px;
+}
+.block__item .item__text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #575445;
+}
+/* Categories */
+.categories{
+    width: 1440px;
+    height: 1266.66px;
+}
+.categories__container{
+    width: 1200px;
+    height: 1152.66px;
+}
+.categories__texts{
+    width: 600px;
+    height: 129px;
+    text-align: center;
+    padding-top: 14px;
+    margin: 0px 300px 20px 300px;
+}
+.categories__texts .title__text{
+    margin-bottom: 7px;
+}
+/* cards */
+.cards__block{
+    width: 1168px;
+    height: 473px;
+    display: flex;
+    margin-bottom: 16px;
+}
+.card__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #575445;
+    margin-bottom: 10px;
+    margin-top: 39px;
+}
+.card__text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #575445;
+    margin-bottom: 20px;
+}
+.card_1{
+    width: 379px;
+    height: 473px;
+    margin-right: 16px;
+    background: url('../outdoor/img/accessories.png');
+}
+.card_2{
+    width: 379px;
+    height: 473px;
+    margin-right: 16px;
+    background: url('../outdoor/img/apparel.png');
+}
+.card_3{
+    width: 379px;
+    height: 473px;
+    background: url('../outdoor/img/gear.png');
+}
+.card_4{
+    width: 379px;
+    height: 473px;
+    margin-right: 16px;
+    background: url('../outdoor/img/headwear.png');
+}
+.card_5{
+    width: 379px;
+    height: 473px;
+    margin-right: 16px;
+    background: url('../outdoor/img/hiking_gear.png');
+}
+.card_6{
+    width: 379px;
+    height: 473px;
+    background: url('../outdoor/img/jackets.png');
+}
+/* Team */
+.team{
+    height: 600px;
+    background: url('../outdoor/img/products_bg.png');
+}
+.team:hover .team__texts{
+    display: block;
+}
+.team__texts{
+    width: 279px;
+    height: 125px;
+    padding-top: 241.34px;
+    margin: 0px 81px 146px 1080px;
+    display: none;
+}
+.team__title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.team__text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFC;
+    margin-bottom: 10px;
+}
+.panel{
+    display: flex;
+    margin: 0px 40px 40px 785px;
+    width: 615px;
+    height: 48px;
+    background-color: #292C32;
+    border-radius: 16px;
+}
+.panel__item{
+    padding: 15px 0px;
+    display: flex;
+    margin-right: 20px;
+}
+.panel__item_1{
+    padding: 15px 0px;
+    display: flex;
+}
+.panel__item_1 img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+.panel__item_0{
+    padding: 15px 0px;
+    display: flex;
+    margin-right: 8px;
+}
+.panel__item_0 img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    margin-left: 22px;
+}
+.panel__item img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    margin-left: 22px;
+}
+.panel__text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    color: #FFFFFF;   
+}
+/* Shop */
+.shop{
+    height: 393px;
+    background: url('../outdoor/img/shop_bg.png');
+}
+.shop__texts{
+    width: 600px;
+    height: 129px;
+    text-align: center;
+    margin-left: 420px;
+    padding-top: 100px;
+}
+.shop__title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FAFAFC;
+}
+.shop__name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #E6B939;
+    margin-bottom: 7px;
+}
+.shop__text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FAFAFC;
+    margin-bottom: 21px;
+}
+/* button */
+.button{
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 111px;
+    margin-left: 245px;
+}
+.button p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #575445;
+    padding: 10px 18px;   
+}
+/* guides */
+.guides__container{
+    padding-top: 100px;
+    width: 1200px;
+    height: 643.48px;
+}
+.guides__texts{
+    width: 600px;
+    height: 129px;
+}
+.guides__texts .title__text{
+    margin-bottom: 7px;
+}
+/* offers */
+.guides__offers{
+    width: 1168px;
+    height: 453.48px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.guides__offer{
+    width: 568px;
+    margin-right: 32px;
+}
+.offer__texts{
+    margin-top: 18px;
+    width: 568px;
+    height: 108px;
+}
+.offer__text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #575445;   
+}
+.offer__date{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #6F7278;
+}
+.offer__profile{
+    width: 568px;
+    height: 50px;
+    display: flex;
+    margin-top: 12.14px;
+}
+.profile__info{
+    display: flex;
+    width: 130px;
+    height: 50px;
+    margin-right: 334px;
+}
+.profile__info2{
+    display: flex;
+    width: 174px;
+    height: 50px;
+    margin-right: 290px;
+}
+.profile__texts{
+    width: 68px;
+    height: 33px;
+    margin-left: 12px;
+}
+.profile__texts2{
+    width: 112px;
+    height: 33px;
+    margin-left: 12px;
+}
+.profile__text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #E6B939;  
+}
+.profile__name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #575445;
+}
+/* magazine */
+.magazine{
+    display: flex;
+}
+.magazine__img{
+    padding-top: 70px;
+}
+.magazine__texts{
+    width: 400px;
+    height: 270px;
+    padding-top: 353px;
+}
+.magazine__texts .title__text{
+    margin-bottom: 7px;
+}
+.magazine__texts .common__text{
+    margin-bottom: 20px;
+}
+/* footer */
+.footer{
+    width: 1440px;
+    height: 567px;
+    background: #575445;
+}
+.footer__container{
+    width: 1168px;
+    height: 367.3px;
+    padding-top: 100px;
+    margin-left: 136px;
+}
+.logo_v2{
+    width: 160px;
+    height: 48px;
+    margin: 0px 504px 76px 504px;
+}
+.footer_block{
+    width: 1168px;
+    height: 193px;
+    display: flex;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 193px;
+    margin-right: 16px;
+}
+.gear_categories{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 193px;
+    margin-right: 16px;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 193px;
+    margin-right: 16px;
+}
+.footer_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.footer_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 9px;
+}
+.footer_email{
+    width: 458px;
+    height: 53px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #6F7278;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-left: 34px;
+    margin-top: 10px;
+}
+.footer_form{
+    display: flex;
+}
+.footer_button{
+    width: 73px;
+    height: 39px;
+    background: #3A4443;
+    border-radius: 10px;
+    margin: 16px 7px 7px -80px
+}
+.footer_buttontext{
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 8px 8px 8px 8px;
+}
+.footer_text2{
+    width: 450px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFC;
+}
+.footer_info{
+    display: flex;
+    width: 1168px;
+    height: 24px;
+    margin-top: 26px;
+}
+.info_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-right: 523px;
+}
+.footer_socials{
+    width: 176px;
+    height: 24px;
+}
+.social{
+    margin-right: 20px;
+}
