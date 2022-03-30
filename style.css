@@ -101,6 +101,7 @@ a{
 /* Header */
 .header{
     width: 1440px;
+    position: fixed;
     height: 79px;
     display: flex;
     background-color: #FFFFFF;
