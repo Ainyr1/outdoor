@@ -371,6 +371,9 @@ a{
 .team:hover .team__texts{
     display: block;
 }
+.team:hover .panel{
+    display: block;
+}
 .team__texts{
     width: 279px;
     height: 125px;
@@ -405,6 +408,7 @@ a{
     height: 48px;
     background-color: #292C32;
     border-radius: 16px;
+    display: none;
 }
 .panel__item{
     padding: 15px 0px;
